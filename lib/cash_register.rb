@@ -35,7 +35,6 @@ class CashRegister
     @total -= @price
     if @items.empty
       @total = 0.0
-    end 
+    end
   end
-
 end
